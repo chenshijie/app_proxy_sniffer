@@ -1,0 +1,5 @@
+{
+  "target_host":"api.domain.com",
+  "target_port":80,
+  "service_port":3000
+}

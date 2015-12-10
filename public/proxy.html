@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Proxy Sinffer</title>
+    <link rel="stylesheet" href="/styles/mono-blue.css">
+    <script src="/js/jquery-1.10.2.min.js"></script>
+    <script src="/js/highlight.pack.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/proxy.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+<div id="chat-box" style="bordddder:1px solid #cccccc; height:600px; overflow:auto;">
+</div>
+<p>
+<input type="button" id="send" onClick="queryserver();" value="查询"/>
+<input type="button" id="clearbtn" onClick="clearArea();" value="清空"/>
+</body>
+</html>
