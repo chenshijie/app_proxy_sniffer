@@ -1,0 +1,30 @@
+{
+  "name": "app_proxy_sniffer",
+  "version": "1.0.0",
+  "description": "appapi代理/监听",
+  "main": "proxy-server.js",
+  "dependencies": {
+    "express": ">= 4.13.3",
+    "js-beautify": ">= 1.5.10",
+    "socket.io": ">= 1.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenshijie/app_proxy_sniffer.git"
+  },
+  "keywords": [
+    "proxy",
+    "sniffer"
+  ],
+  "author": "jason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenshijie/app_proxy_sniffer/issues"
+  },
+  "homepage": "https://github.com/chenshijie/app_proxy_sniffer#readme"
+}
